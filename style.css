@@ -1,0 +1,145 @@
+/* style.css */
+
+/* Resetování a základní styly */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 0.6;
+    background-image: url("pa.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Horní panel */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h1 {
+    float: left 50%;
+    text-align: left;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+  
+iframe {
+    display: block; 
+    margin: 0 auto; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.images img{
+display: flex;
+margin: 60px;
+width: 500px;
+height: 400px;
+}
+
+.images{
+    display: flex;
+}
+.p{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+
+}
+
+.h {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+}
+
+.text-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.text{
+    font-size:25px;
+    justify-content: center;
+    line-height: 50px;
+    
+    text-align: center;
+    display: flex;
+    color: white;
+    opacity: 1;
+    max-height: 600px;
+}
+
+.video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 7vb;
+}
+
+
+
